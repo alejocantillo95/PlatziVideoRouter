@@ -12,3 +12,8 @@ export const loginRequest = payload => ({
   type: 'LOGIN_REQUEST',
   payload,
 });
+
+export const logoutRequest = payloat => ({
+  type: 'LOGOUT_REQUEST',
+  payload,
+});
