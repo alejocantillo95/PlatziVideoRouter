@@ -7,7 +7,7 @@ import '../assets/styles/components/Player.scss';
 const Player = ({ history, match, playing, getVideoSource }) => {
   const { id } = match.params;
   const [loading, setLoading] = useState(true);
-  const hasPlaying = Object.keys(props.playing).length > 0;
+  const hasPlaying = Object.keys(playing).length > 0;
 
   useEffect(() => {
     getVideoSource(id);
